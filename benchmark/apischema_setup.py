@@ -50,7 +50,7 @@ class APISCHEMAClass:
     list_enum: List[APISCHEMAEnumClass]
     tuple_datetime: Tuple[APISCHEMADateTimeClass, ...]
     dict_complex: Dict[
-        str, Mapping[str, MutableMapping[UUID, Sequence[Decimal]]]
+        int, Mapping[str, MutableMapping[UUID, Sequence[Decimal]]]
     ]
 
 
